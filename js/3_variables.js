@@ -17,12 +17,14 @@ var flag = true; // true ou false
 var books = [];
 
 // Definindo um array.
-var colors = ['red', 'green', 'blue'];
+var colors = ['red',
+    'green',
+    'blue'];
 
 print("Variável zero: ", zero);
 print("Variável message: ", message);
 print("Variável num: ", num);
 print("Variável pi: ", pi);
 print("Variável flag: ", flag);
-print("Variável books: ", books);
-print("Variável colors: ", colors);
+print("Lista books: ", books);
+print("Lista colors: ", colors);
