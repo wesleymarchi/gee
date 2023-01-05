@@ -1,7 +1,17 @@
 /* OBJETOS */
 
-// CRIANDO UM OBJETO COM A NOTAÇÃO LITERAL.
+/**
+ * Cria um objeto seguindo a notação literal.
+ *
+ * @type {{book}}
+ */
 var book = {}; // Objeto vazio/em branco.
+
+/**
+ * Cria um objeto seguindo a notação literal.
+ *
+ * @type {{gasStatus: number, year: number, model: string, checkGas: (function(): *), brand: string, tankSize: number}}
+ */
 var car = {
     brand: 'Volkswagen',
     model: 'Fusca',
@@ -14,6 +24,11 @@ var car = {
 };
 
 // CRIANDO UM OBJETO COM A NOTAÇÃO CONSTRUTOR.
+/**
+ * Cria um objeto seguindo a notação construtor.
+ *
+ * @type {Object}
+ */
 var motorcycle = new Object(); // Instância um objeto em branco.
 motorcycle.brand = 'Honda';
 motorcycle.model = 'CB 1000R';
@@ -22,7 +37,7 @@ motorcycle.year = 2021;
 // ATUALIZANDO UM OBJETO.
 motorcycle['year'] = 2020;
 
-// LIMPANDO UMA PROPRIEDADE E DELETANDO UMA PROPRIEDADE
+// LIMPANDO UMA PROPRIEDADE E DELETANDO UMA PROPRIEDADE.
 motorcycle.brand = '';
 delete motorcycle.brand;
 

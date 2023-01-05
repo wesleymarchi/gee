@@ -1,22 +1,45 @@
-/* Funções */
+/* FUNÇÕES */
 
-// FUNÇÃO QUE RETORNA O QUADRADO DE UM NÚMERO.
-function square(num) { // Inicio do bloco de código da função
+/**
+ * Retorna o quadrado de um número.
+ *
+ * @param num
+ * @returns {number}
+ */
+function square(num) { // Inicio do bloco de código da função.
     return num * num;
 } // Fim do bloco de código da função.
 
-// FUNÇÃO QUE RETORNA A ÁREA DE UM RETÂNGULO
+/**
+ * Retorna a área de um retângulo.
+ *
+ * @param width
+ * @param height
+ * @returns {number}
+ */
 function calcArea(width, height) {
     var area = width * height; // Variável de escopo.
     return area;
 }
 
-// EXPRESSÃO DE FUNÇÃO QUE RETORNA A ÁREA DE UM RETÂNGULO.
+/**
+ * Expressão de função que retorna a área de um retângulo.
+ *
+ * @param width
+ * @param height
+ * @returns {number}
+ */
 var calculateArea = function(width, height) {
     return width * height;
 };
 
-// EXPRESSÃO DE FUNÇÃO CHAMADA IMEDIATAMENTE
+/**
+ * Expressão de função chamada imediatamente (IIFE).
+ *
+ * @param width
+ * @param height
+ * @return {number}
+ */
 var calculateAreaNow = (function() {
     var width = 2;
     var height = 3;
