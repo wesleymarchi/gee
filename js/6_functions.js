@@ -1,4 +1,4 @@
-/* Funções e Métodos */
+/* Funções */
 
 // FUNÇÃO QUE RETORNA O QUADRADO DE UM NÚMERO.
 function square(num) { // Inicio do bloco de código da função
