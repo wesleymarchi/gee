@@ -12,11 +12,14 @@ print("Subtração: ", 10 - 2);
 print("Divisão: ", 10 / 2);
 print("Multiplicação: ", 10 * 2);
 
-// Adiciona 1 do valor atual.
-print("Incremento: ", ++price);
+// Adiciona 1 ao valor atual.
+print("Incremento: ", ++price); // pré-incremento.
 
-// Subtrai 1 do valor atual.
-print("Decremento: ", --price);
+// Subtrai 1 ao valor atual.
+print("Decremento: ", --price); // pré-decremento.
+
+// Adiciona 1 ao valor atual.
+print("Incremento (pós-incremento): ", price++);
 
 // Operador de string.
 print("Uni as strings: ", add);
