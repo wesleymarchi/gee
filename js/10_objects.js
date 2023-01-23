@@ -3,14 +3,15 @@
 /**
  * Cria um objeto seguindo a notação literal.
  *
- * @type {{book}}
+ * @type {Object} book
  */
 var book = {}; // Objeto vazio/em branco.
 
 /**
  * Cria um objeto seguindo a notação literal.
  *
- * @type {{gasStatus: number, year: number, model: string, checkGas: (function(): *), brand: string, tankSize: number}}
+ * @type {Object} car
+ * @param {{gasStatus: number, year: number, model: string, checkGas: (function(): *), brand: string, tankSize: number}}
  */
 var car = {
     brand: 'Volkswagen',
@@ -27,7 +28,8 @@ var car = {
 /**
  * Cria um objeto seguindo a notação construtor.
  *
- * @type {Object}
+ * @type {Object} motorcycle
+ * @param {{brand: string, model: string, year: number}}
  */
 var motorcycle = new Object(); // Instância um objeto em branco.
 motorcycle.brand = 'Honda';
